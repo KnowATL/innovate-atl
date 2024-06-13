@@ -28,3 +28,5 @@ jobs:
       - name: Deploy
         id: deploy
         uses: knowatl/fly-pr-review-apps-rails@main
+        with:
+          secrets: RAILS_MASTER_KEY=${{ secrets.RAILS_MASTER_KEY }}
