@@ -27,4 +27,4 @@ jobs:
 
       - name: Deploy
         id: deploy
-        uses: superfly/fly-pr-review-apps@1.2.1
+        uses: knowatl/fly-pr-review-apps-rails@main
