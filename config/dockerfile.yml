@@ -2,5 +2,8 @@
 
 ---
 options:
+  cache: true
   label:
     fly_launch_runtime: rails
+  parallel: true
+  yjit: true
