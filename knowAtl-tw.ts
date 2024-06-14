@@ -4,9 +4,9 @@ const twilio = require('twilio');
 const app = express();
 
 // Your Twilio credentials
-const accountSid = 'ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
-const authToken = 'your_auth_token';
-const fromPhoneNumber = '+18554500256';
+const accountSid = 'process.env.TWILIO_ACCOUNT_SID';
+const authToken = 'process.env.TWILIO_AUTH_TOKEN';
+const fromPhoneNumber = 'process.env.TWILIO_NUMBER';
 
 // Initialize Twilio client
 const client = twilio(accountSid, authToken);

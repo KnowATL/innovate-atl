@@ -2,8 +2,13 @@
 
 ---
 options:
+<<<<<<< HEAD
   cache: true
   label:
     fly_launch_runtime: rails
   parallel: true
   yjit: true
+=======
+  label:
+    fly_launch_runtime: rails
+>>>>>>> d368682 (rails init)
